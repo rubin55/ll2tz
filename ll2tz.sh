@@ -16,4 +16,4 @@ HOSTNAME="$(hostname)"
 [[ -n "$VENV_DIR" ]] && source "$VENV_DIR/bin/activate"
 
 # Run module.
-exec python3 "$ROOT_DIR/c2t.py"
+exec python3 "$ROOT_DIR/ll2tz.py"
