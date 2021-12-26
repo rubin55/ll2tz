@@ -29,3 +29,8 @@ In fact, I've made a helper script that can be used in combination with
 Make sure the script is executable and owned by `root`. The script will
 trigger when a network interface goes `up`. You can see what it did by
 looking at `/tmp/ll2tz-setter.out`.
+
+## Todo
+
+  * Make pip-installablea (upload to pip)
+  * Optional: make package for void linux
