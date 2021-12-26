@@ -20,3 +20,12 @@ You could set /etc/localtime like this:
 ```
 sudo ln -sf /usr/share/zoneinfo/$(c2t.sh) /etc/localtime
 ```
+
+In fact, I've made a helper script that can be used in combination with
+`NetworkManager-dispatch`. Place `set-timezone.sh` in:
+
+`/etc/NetworkManager/dispatch.d`
+
+Make sure the script is executable and owned by `root`. The script will
+trigger when a network interface goes `up`. You can see what it did by
+looking at `/tmp/c2t.out`.
