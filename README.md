@@ -32,5 +32,5 @@ looking at `/tmp/ll2tz-setter.out`.
 
 ## Todo
 
-  * Make pip-installablea (upload to pip)
+  * Make pip-installable (upload to pip)
   * Optional: make package for void linux
