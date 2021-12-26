@@ -12,7 +12,6 @@ HOSTNAME="$(hostname)"
 [[ -e "$ROOT_DIR/venv/bin/activate" ]] && VENV_DIR="$ROOT_DIR/venv"
 [[ -e "$ROOT_DIR/venv/$HOSTNAME/bin/activate" ]] && VENV_DIR="$ROOT_DIR/venv/$HOSTNAME"
 
-
 # Activate venv if available.
 [[ -n "$VENV_DIR" ]] && source "$VENV_DIR/bin/activate"
 
